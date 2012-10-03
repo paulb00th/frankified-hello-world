@@ -32,7 +32,7 @@
                                     <action selector="changeGreeting:" destination="2" eventType="touchUpInside" id="N4F-Bq-z4K"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pO-NE-oJw">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pO-NE-oJw">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="ATT-Cx-GT6"/>
                                 </constraints>
@@ -43,14 +43,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="7bS-ly-mSa" secondAttribute="centerX" type="user" id="C70-qw-pDJ"/>
                             <constraint firstItem="ckZ-ES-Zak" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="CPU-CO-mO6"/>
                             <constraint firstItem="ckZ-ES-Zak" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Hzl-Up-7g1"/>
-                            <constraint firstItem="8pO-NE-oJw" firstAttribute="top" secondItem="3" secondAttribute="top" constant="263" id="M0o-Oi-O62"/>
                             <constraint firstAttribute="bottom" secondItem="7bS-ly-mSa" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="XeY-BC-0iy"/>
-                            <constraint firstAttribute="trailing" secondItem="ckZ-ES-Zak" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Ydj-pZ-jz3"/>
-                            <constraint firstItem="8pO-NE-oJw" firstAttribute="centerX" secondItem="7bS-ly-mSa" secondAttribute="centerX" type="default" id="ayj-4u-aRR"/>
-                            <constraint firstItem="8pO-NE-oJw" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="p1L-3N-G6H"/>
-                            <constraint firstAttribute="trailing" secondItem="8pO-NE-oJw" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="vva-Yb-pnn"/>
+                            <constraint firstAttribute="centerY" secondItem="8pO-NE-oJw" secondAttribute="centerY" type="user" id="eaT-rP-1rg"/>
+                            <constraint firstAttribute="centerX" secondItem="8pO-NE-oJw" secondAttribute="centerX" type="user" id="fra-aC-aYQ"/>
+                            <constraint firstItem="8pO-NE-oJw" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="iu6-pN-kas"/>
+                            <constraint firstAttribute="centerX" secondItem="ckZ-ES-Zak" secondAttribute="centerX" type="user" id="rrQ-Xy-HF5"/>
                         </constraints>
                     </view>
                     <connections>
